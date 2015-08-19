@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HDActivityIndicator.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    HDActivityIndicator *indicator = [[HDActivityIndicator alloc] initWithFrame:CGRectMake(50, 100, 50, 50)];
+    [self.view addSubview:indicator];
+    
+    [indicator startAnimating];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -14,6 +14,7 @@
 		7DB57A5B1B848BAF008029A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB57A5A1B848BAF008029A5 /* Images.xcassets */; };
 		7DB57A5E1B848BAF008029A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB57A5C1B848BAF008029A5 /* LaunchScreen.xib */; };
 		7DB57A6A1B848BAF008029A5 /* ActivityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB57A691B848BAF008029A5 /* ActivityViewTests.m */; };
+		7DB57A751B848BD9008029A5 /* HDActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB57A741B848BD9008029A5 /* HDActivityIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7DB57A631B848BAF008029A5 /* ActivityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB57A681B848BAF008029A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DB57A691B848BAF008029A5 /* ActivityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewTests.m; sourceTree = "<group>"; };
+		7DB57A731B848BD9008029A5 /* HDActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDActivityIndicator.h; sourceTree = "<group>"; };
+		7DB57A741B848BD9008029A5 /* HDActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDActivityIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				7DB57A521B848BAF008029A5 /* AppDelegate.m */,
 				7DB57A541B848BAF008029A5 /* ViewController.h */,
 				7DB57A551B848BAF008029A5 /* ViewController.m */,
+				7DB57A731B848BD9008029A5 /* HDActivityIndicator.h */,
+				7DB57A741B848BD9008029A5 /* HDActivityIndicator.m */,
 				7DB57A571B848BAF008029A5 /* Main.storyboard */,
 				7DB57A5A1B848BAF008029A5 /* Images.xcassets */,
 				7DB57A5C1B848BAF008029A5 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				7DB57A561B848BAF008029A5 /* ViewController.m in Sources */,
 				7DB57A531B848BAF008029A5 /* AppDelegate.m in Sources */,
+				7DB57A751B848BD9008029A5 /* HDActivityIndicator.m in Sources */,
 				7DB57A501B848BAF008029A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
